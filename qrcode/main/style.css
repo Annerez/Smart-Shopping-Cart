@@ -1,0 +1,80 @@
+/* Center the content and set a maximum width */
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #fa8d8d, #ffe598, #f7b733, #fc4a1a);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#scan-button {
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 30px; /* Optional margin to separate from the result container */
+  background-color: #ffea82; /* Green background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow */
+  animation: pulse 1s infinite; /* Pulsating animation */
+}
+
+#scan-button:hover {
+  background-color: #f9c748; /* Darker #f9c748 on hover */
+  animation: none; /* Stop the pulsating animation on hover */
+}
+
+/* Pulse animation keyframes */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  #scan-button {
+    font-size: 18px;
+  }
+
+  #result-container {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #scan-button {
+    font-size: 16px;
+  }
+
+  #result-container {
+    font-size: 18px;
+  }
+}
