@@ -1,1 +1,1 @@
-require('react-web-vector-icons/fonts');
+require('react-web-vector-icons/fonts'); //icon
