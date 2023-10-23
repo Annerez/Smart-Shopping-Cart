@@ -1,0 +1,100 @@
+.index {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.index .div-2 {
+  background-color: #fafafa;
+  height: 823px;
+  position: relative;
+  width: 411px;
+}
+
+.index .overlap {
+  height: 761px;
+  left: 0;
+  position: absolute;
+  top: 62px;
+  width: 411px;
+}
+
+.index .group {
+  background-color: #ffffffb2;
+  border-radius: 9px;
+  height: 44px;
+  left: 16px;
+  position: absolute;
+  top: 0;
+  width: 45px;
+}
+
+.index .arrow {
+  height: 18px;
+  left: 16px;
+  position: absolute;
+  top: 13px;
+  width: 10px;
+}
+
+.index .healthy-food {
+  height: 717px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 44px;
+  width: 411px;
+}
+
+.index .img {
+  height: 707px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 411px;
+}
+
+.index .overlap-wrapper {
+  height: 62px;
+  left: 41px;
+  position: absolute;
+  top: 655px;
+  width: 337px;
+}
+
+.index .div-wrapper {
+  background-color: #5a6cf3;
+  border-radius: 16px;
+  height: 62px;
+  position: relative;
+  width: 335px;
+}
+
+.index .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Roboto", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 76px;
+  letter-spacing: 0.54px;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  white-space: nowrap;
+}
+
+.index .system-bar-instance {
+  left: 18px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.index .design-component-instance-node {
+  border-color: #3c3c4336 !important;
+}
+
+.index .system-bar-2 {
+  background-color: var(--grayscale-1) !important;
+}

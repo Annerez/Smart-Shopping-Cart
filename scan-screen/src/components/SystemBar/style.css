@@ -1,0 +1,271 @@
+.system-bar {
+  position: relative;
+  width: 375px;
+}
+
+.system-bar .div {
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 165px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.system-bar .right-side {
+  left: 294px;
+  position: absolute;
+}
+
+.system-bar .battery {
+  position: absolute;
+}
+
+.system-bar .overlap-group {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.system-bar .capacity {
+  border-radius: 1.33px;
+  height: 7px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 18px;
+}
+
+.system-bar .reserve {
+  height: 8px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 20px;
+}
+
+.system-bar .cap {
+  position: absolute;
+}
+
+.system-bar .text-wrapper-2 {
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  white-space: nowrap;
+}
+
+.system-bar .icon-bluetooth {
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.system-bar .wifi {
+  height: 11px;
+  left: 22px;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.system-bar .cellular-connection {
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 17px;
+}
+
+.system-bar .left-side {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 4px;
+  left: 4px;
+  position: absolute;
+  top: 3px;
+}
+
+.system-bar .icon-signal {
+  height: 14px;
+  position: relative;
+  width: 21px;
+}
+
+.system-bar .empty-bar {
+  height: 10px;
+  left: 16px;
+  position: absolute;
+  top: 2px;
+  width: 3px;
+}
+
+.system-bar .full-bars {
+  height: 8px;
+  left: 2px;
+  position: absolute;
+  top: 4px;
+  width: 12px;
+}
+
+.system-bar .carrier {
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.05px;
+  line-height: 16px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.system-bar .icon-wifi {
+  height: 14px;
+  position: relative;
+  width: 15px;
+}
+
+.system-bar .wi-fi {
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 14px;
+}
+
+.system-bar .class {
+  color: #ffffff !important;
+}
+
+.system-bar .class-2 {
+  color: #000000 !important;
+}
+
+.system-bar .class-3 {
+  left: 21px !important;
+  position: absolute !important;
+  top: 12px !important;
+}
+
+.system-bar .class-4 {
+  left: -15px !important;
+  position: absolute !important;
+  top: 12px !important;
+}
+
+.system-bar.iphone-x {
+  height: 44px;
+}
+
+.system-bar.iphone-SE {
+  height: 20px;
+}
+
+.system-bar .theme-light {
+  color: var(--lightlabelprimary);
+  top: 2px;
+}
+
+.system-bar .theme-dark {
+  color: var(--darklabelprimary);
+  height: 16px;
+  top: 1px;
+}
+
+.system-bar .device-1-iphone-x {
+  border: 1px solid;
+  border-radius: 2.67px;
+  height: 11px;
+  width: 22px;
+}
+
+.system-bar .device-1-iphone-SE {
+  background-image: url(https://cdn.animaapp.com/projects/61ef7aa2dd0b21a3ff5d423c/releases/6532585bb35383690516e023/img/body.svg);
+  background-size: 100% 100%;
+  height: 12px;
+  width: 24px;
+}
+
+.system-bar .device-1-iphone-x.theme-0-light {
+  border-color: var(--lightlabelsecondary);
+}
+
+.system-bar .theme-0-dark.device-1-iphone-x {
+  border-color: var(--darklabelsecondary);
+}
+
+.system-bar .theme-2-light {
+  color: var(--lightlabelprimary);
+}
+
+.system-bar .theme-2-dark {
+  color: var(--darklabelprimary);
+}
+
+.system-bar .theme-3-light {
+  color: var(--lightlabelprimary);
+}
+
+.system-bar .theme-3-dark {
+  color: var(--darklabelprimary);
+}
+
+.system-bar.iphone-x .right-side {
+  height: 11px;
+  top: 17px;
+  width: 67px;
+}
+
+.system-bar.iphone-SE .right-side {
+  height: 16px;
+  top: 3px;
+  width: 78px;
+}
+
+.system-bar.iphone-x .battery {
+  height: 11px;
+  left: 42px;
+  top: 0;
+  width: 24px;
+}
+
+.system-bar.iphone-SE .battery {
+  height: 12px;
+  left: 49px;
+  top: 2px;
+  width: 26px;
+}
+
+.system-bar .overlap-group.theme-0-light .capacity {
+  background-color: var(--lightlabelprimary);
+}
+
+.system-bar .overlap-group.theme-0-dark .capacity {
+  background-color: var(--darklabelprimary);
+}
+
+.system-bar.iphone-x .cap {
+  height: 4px;
+  left: 23px;
+  top: 4px;
+  width: 1px;
+}
+
+.system-bar.iphone-SE .cap {
+  height: 5px;
+  left: 25px;
+  top: 3px;
+  width: 2px;
+}
