@@ -1,0 +1,1 @@
+export { Starus } from "./Starus";
