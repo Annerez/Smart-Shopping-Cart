@@ -1,14 +1,10 @@
-# Python In-built packages
 from pathlib import Path
 import PIL
 import requests
-# External packages
 import streamlit as st
-# Local Modules
 import settings
 import helper
 
-# Setting page layout
 st.set_page_config(
     page_title="PSCP Smart Shopping Cart",
     page_icon="🛒",
@@ -16,10 +12,9 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Main page heading
 st.title("🛒 PSCP Smart Shopping Cart")
 
-# Sidebar
+
 st.sidebar.header("ML Model Config")
 
 confidence = float(st.sidebar.slider(
@@ -27,7 +22,7 @@ confidence = float(st.sidebar.slider(
 
 model_path = Path(settings.DETECTION_MODEL)
 
-# Load Pre-trained ML Model
+
 try:
     model = helper.load_model(model_path)
 except Exception as ex:
@@ -39,7 +34,7 @@ source_radio = st.sidebar.radio(
     "Select Source", settings.SOURCES_LIST)
 
 source_img = None
-# If image is selected
+
 if source_radio == settings.IMAGE:
     source_img = st.sidebar.file_uploader(
         "Choose an image...", type=("jpg", "jpeg", "png", 'bmp', 'webp'))
@@ -82,7 +77,6 @@ if source_radio == settings.IMAGE:
                         for box in boxes:
                             st.write(box.data)
                 except Exception as ex:
-                    # st.write(ex)
                     st.write("No image is uploaded yet!")
 
 elif source_radio == settings.VIDEO:
